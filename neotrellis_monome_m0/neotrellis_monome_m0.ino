@@ -29,7 +29,7 @@
 
 
 #define NUM_ROWS 8 // DIM_Y number of rows of keys down
-#define NUM_COLS 16 // DIM_X number of columns of keys across
+#define NUM_COLS 8 // DIM_X number of columns of keys across
 #define NUM_LEDS NUM_ROWS*NUM_COLS
 
 #define INT_PIN 9
@@ -69,7 +69,7 @@ int prevLedBuffer[mdp.MAXLEDCOUNT];
 /*
 // 8x8 setup
 Adafruit_NeoTrellis trellis_array[NUM_ROWS / 4][NUM_COLS / 4] = {
-  { Adafruit_NeoTrellis(0x2F), Adafruit_NeoTrellis(0x2E) },
+  { Adafruit_NeoTrellis(0x2F), Adafruit_NeoTrellis(0x36) },
   { Adafruit_NeoTrellis(0x32), Adafruit_NeoTrellis(0x30) }
 };
 */
